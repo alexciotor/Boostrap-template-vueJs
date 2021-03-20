@@ -93,13 +93,76 @@
 
 <br><br><br>
 <h1>Screen sizes</h1>
-<div class="container  bg-secondary text-white">
+<div class="container   text-white">
   <div class="row">
-    <div class="col-sm bg-warning">i am single column</div>
-      <div class="col-sm bg-dark">i am second column</div>
-         <div class="col-sm bg-info">i am second column</div>
+    <div class="col-7 bg-warning">i am single column</div>
+      <div class="col-3 bg-dark">i am second column</div>
+         <div class="col-2 bg-info">i am second column</div>
   </div>
+  <br><br><br><br>
 </div>
+<div class="container   text-white">
+  <div class="row">
+    <div class="col-sm-6 col-md-3 bg-warning">i   am single column</div>
+      <div class="col-sm-6 col-md-3  bg-dark">i am second column</div>
+         <div class="col-sm-6 col-md-3  bg-info">i am second column</div>
+            <div class="col-sm-6 col-md-3  bg-danger">i am second column</div>
+  </div>
+  
+</div>
+<br><br><br><br><br><br>
+
+<h1>margin and paddings</h1>
+<!-- m p 0-5 -->
+  <div class="container">
+  <div class=" p-5 bg-danger m-5">i am div</div>
+  <div class=" p-4 bg-info m-4">i am div</div>
+  <div class=" p-3 bg-warning m-3">i am div</div>
+  <div class=" p-2 bg-success m-2">i am div</div>
+  <div class=" p-1 bg-secondary m-1">i am div</div>
+   <div class="p-0 bg-primary ">i am div</div>
+  
+</div>
+ 
+<!-- m p 0-5 -->
+  <div class="container">
+  <div class="  mt-5 bg-danger ">i am div</div>
+  <div class="  bg-info ">i am div</div>
+  <div class=" mb-5 bg-warning ">i am div</div>
+  <div class=" ml-5  bg-success ">i am div</div>
+  <!-- my - margin top-bottom -->
+  <div class=" my-5 bg-secondary ">i am div</div>
+  <!-- mx- margin left right -->
+   <div class=" mx-5 bg-primary ">i am div</div>
+  
+</div>
+  <div class="container">
+  <div class="  pt-5 bg-danger ">i am div</div>
+  <div class="  bg-info ">i am div</div>
+  <div class=" pb-5 bg-warning ">i am div</div>
+  <div class=" pl-5  bg-success ">i am div</div>
+  <!-- my - margin top-bottom -->
+  <div class=" py-5 bg-secondary ">i am div</div>
+  <!-- mx- margin left right -->
+   <div class=" px-5 bg-primary ">i am div</div>
+  
+</div>
+<!-- w = with from 25 to 100 -->
+<!-- mx-auto to center div  -->
+  <div class="container mt-5">
+    <!-- you can add screen size to id ( media query Md ) -->
+  <div class=" w-25 bg-danger  mx-md-auto  ">i am div</div>
+  <div class=" w-50 bg-info  mx-auto  ">i am div</div>
+  <div class=" w-75 bg-warning  mx-auto  ">i am div</div>
+  <div class=" w-100  bg-success ">i am div</div>
+   
+  <div class="   bg-secondary ">i am div</div>
+  <!-- mx- margin left right -->
+   <div class="   bg-primary ">i am div</div>
+  
+</div>
+<span class="border  border-5 d-block text-primary">hello</span>
+<h1 class="">flexBox </h1>
  </section> 
 </template>
 
